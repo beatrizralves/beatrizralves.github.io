@@ -133,19 +133,37 @@ export const HeroSection = () => {
                 <Button
                   style={{
                     // padding: "0.5rem 1.5rem",
-                    margin: "10px",
                     borderRadius: "999px",
                     backgroundColor: "rgb(238, 68, 187)",
                     border: "none",
                     color: "white",
                     fontWeight: "500",
                     transition: "all 0.3s",
+                    marginLeft: "1rem",
+                  }}
+                  onMouseOver={(e) => {
+                    e.currentTarget.style.transform = "scale(1.05)";
+                    e.currentTarget.style.boxShadow =
+                      "0 0 10px rgb(238, 68, 187)";
+                  }}
+                  onMouseOut={(e) => {
+                    e.currentTarget.style.transform = "scale(1)";
+                    e.currentTarget.style.boxShadow = "none";
+                  }}
+                  onMouseDown={(e) => {
+                    e.currentTarget.style.transform = "scale(0.95)";
+                  }}
+                  onMouseUp={(e) => {
+                    e.currentTarget.style.transform = "scale(1.05)";
                   }}
                   href="https://www.linkedin.com/in/-beatrizralves-/"
                 >
                   Contact Me
                   <span style={{ marginLeft: "10px" }}></span>
-                  <Linkedin />
+                  <Linkedin
+                    width={20}
+                    style={{ marginTop: "-5px", marginLeft: "-4px" }}
+                  />
                 </Button>
               </div>
             </div>
