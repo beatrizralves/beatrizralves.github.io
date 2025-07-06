@@ -1,0 +1,12 @@
+.toggle_button {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 3;
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  display: none;
+}
