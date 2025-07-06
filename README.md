@@ -4,7 +4,7 @@ This project was done in `React with Typescript` and `bootstrap` for styling.
 
 The database of this project is in `SQlite`. To use it in `React`, was installed the `sql.js` library. In order to use that library in this project was also necessary to use `craco`, a configuration layer for `create-react-app`.
 
-Locally we can edit the projects that appear in the projecs section like this.
+Locally we can edit the projects that appear in the projects section like this.
 ![alt text](example_local_create_project.png)
 
 These buttons only can appear locally not in the published version of the website, that's why in the code we have this:
