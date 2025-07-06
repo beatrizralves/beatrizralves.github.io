@@ -1,4 +1,4 @@
-### Beatriz Alves's Porfolio
+### Beatriz Alves's Portfolio
 
 This project was done in `React with Typescript` and `bootstrap` for styling.
 
