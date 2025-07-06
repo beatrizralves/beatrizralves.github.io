@@ -74,9 +74,10 @@ export const HeroSection = () => {
                   animation: "fade-in 0.7s ease-out 0.6s forwards",
                 }}
               >
-                I am Telecommunications and Informatics Engineer from Portugal
+                I am a Telecommunications and Informatics Engineer from Portugal
                 <br></br>
-                Currently i am working on my Master's Thesis
+                Check here my projects and contact me if you want to work
+                together!
               </p>
 
               <div
